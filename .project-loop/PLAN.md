@@ -10,7 +10,7 @@
 - [x] 重写 `README.md` 并新增 `docs/showcase.md`
 - [x] 新增 `.gitignore`，收紧公开仓库边界
 - [x] 更新 `PROJECT_STATUS.md` 与 `progress.md`
-- [ ] 初始化 Git、提交并推送到 `main`
+- [x] 初始化 Git、提交并推送到 `main`
 
 ## Decisions
 - 公共仓库只保留源码、必要数据、baseline 结果和展示用最佳 `LoRA adapter`，不提交全部本地 checkpoint。
@@ -18,7 +18,7 @@
 - 最终效果展示以真实脚本输出和固定对照样例为主，不伪造前端 demo。
 
 ## Blockers
-- GitHub 认证或大文件限制可能在最终 push 阶段触发。
+- 无。
 
 ## Next Step
-- 更新状态记录文件，然后初始化 Git 并推送。
+- 等用户确认 README 呈现方式；若继续迭代，优先补更系统的人工评测与展示界面。

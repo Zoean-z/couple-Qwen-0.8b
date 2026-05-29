@@ -150,3 +150,26 @@
    - 潜在风险只剩 GitHub 认证或远程推送阶段的大文件规则，但这属于提交阶段风险，不是实现方向偏离。
 5. 下一阶段准备做什么
    - 初始化 Git 索引、检查待提交文件范围、提交并推送到远程 `main`。
+
+## 2026-05-29 - Git Init And Remote Push
+
+- Initialized the local Git repository on `main`.
+- Added remote `origin` -> `https://github.com/Zoean-z/couple-Qwen-0.8b.git`.
+- Created the first public commit and pushed it to `origin/main`.
+
+### decision_audit
+
+1. 本阶段改了哪些文件
+   - `.project-loop/PLAN.md`
+   - `PROJECT_STATUS.md`
+   - `progress.md`
+2. 每个文件改动对应规划中的哪一条
+   - `.project-loop/PLAN.md`：对应本轮计划收尾，把 Git 初始化与远程推送标记为已完成。
+   - `PROJECT_STATUS.md`：对应 AGENTS.md 的状态刷新规则，把仓库当前状态更新为“已公开推送”。
+   - `progress.md`：对应 AGENTS.md 的每阶段结束后强制输出规则，记录提交与推送完成。
+3. 哪些地方有实现权衡
+   - 没有再扩展代码或数据范围，只补状态同步，避免为了“看起来更完整”而顺手增加无关改动。
+4. 是否存在潜在偏离
+   - 无 `unmapped_change`。
+5. 下一阶段准备做什么
+   - 如用户继续迭代，优先补更系统的人工评测和更友好的展示层。
