@@ -1,0 +1,21 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+*.swp
+training_logs/
+
+# keep planning anchor, ignore unrelated writing artifact
+.project-loop/openai_unit_distance_ai_speed_article.md
+
+# large local experiment artifacts are not part of the public repo
+checkpoints/**
+!checkpoints/qwen3_0_6b_lora_filtered_e4/
+!checkpoints/qwen3_0_6b_lora_filtered_e4/best_adapter/
+!checkpoints/qwen3_0_6b_lora_filtered_e4/best_adapter/**
+!checkpoints/qwen3_0_6b_lora_filtered_e4/run_config.json
+!checkpoints/couplet_gru.pth
+
+# keep filtered subset used by the public workflow, skip bulky intermediate tables
+data/filtered_couplets/scored_pairs.tsv
+data/filtered_couplets/top_selected.tsv

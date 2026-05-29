@@ -1,0 +1,91 @@
+{
+  "total_scored": 770491,
+  "total_selected": 10000,
+  "quota_target": {
+    "5": 3000,
+    "7": 5000,
+    "9_11": 2000
+  },
+  "selected_bucket_counts": {
+    "7": 5000,
+    "9_11": 2000,
+    "5": 3000
+  },
+  "selected_length_counts": {
+    "7": 5000,
+    "11": 2000,
+    "5": 3000
+  },
+  "top10_preview": [
+    {
+      "line_no": 1,
+      "length": 7,
+      "score": 65,
+      "up": "晚风摇树树还挺",
+      "down": "晨露润花花更红"
+    },
+    {
+      "line_no": 2,
+      "length": 7,
+      "score": 65,
+      "up": "愿景天成无墨迹",
+      "down": "万方乐奏有于阗"
+    },
+    {
+      "line_no": 3,
+      "length": 7,
+      "score": 65,
+      "up": "丹枫江冷人初去",
+      "down": "绿柳堤新燕复来"
+    },
+    {
+      "line_no": 7,
+      "length": 7,
+      "score": 65,
+      "up": "投石向天跟命斗",
+      "down": "闭门问卷与时争"
+    },
+    {
+      "line_no": 11,
+      "length": 7,
+      "score": 65,
+      "up": "本领高强攀月桂",
+      "down": "成亲吉利放兰香"
+    },
+    {
+      "line_no": 13,
+      "length": 7,
+      "score": 65,
+      "up": "常夸海口无人信",
+      "down": "不做夜郎有客邀"
+    },
+    {
+      "line_no": 15,
+      "length": 7,
+      "score": 65,
+      "up": "恶人无道天收佢",
+      "down": "妙笔生花韵溢香"
+    },
+    {
+      "line_no": 18,
+      "length": 7,
+      "score": 65,
+      "up": "时见流莺鸣柳岸",
+      "down": "偶观雨燕栖寒檐"
+    },
+    {
+      "line_no": 25,
+      "length": 7,
+      "score": 65,
+      "up": "汪洋大海多瑰宝",
+      "down": "骇浪惊涛有巨鳌"
+    },
+    {
+      "line_no": 33,
+      "length": 7,
+      "score": 65,
+      "up": "金蛇狂舞多生气",
+      "down": "天马行空挺费神"
+    }
+  ]
+}
